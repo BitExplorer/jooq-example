@@ -1,0 +1,14 @@
+server:
+  port: 8228
+spring:
+  config:
+    activate:
+      on-profile: dev
+  application:
+    name: generate-code
+  datasource:
+    url: jdbc:postgresql://localhost:5432/finance_test_db
+    username: henninb
+    password: monday1
+    initialization-mode: always
+    sql-script-encoding: utf-8
